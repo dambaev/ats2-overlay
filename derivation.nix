@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "mirror://sourceforge/ats2-lang/ATS2-Postiats-gmp-${version}.tgz";
-    sha256 = "100vgrninbshq3rs57psl9aqi2bphrjfbizmmrjhs5yzh0a4zikk";
+    sha256 = "00zhfv78vmil3a8qcxrrczw9hmdxk2farhjar8h1cg13ba606s2i";
   };
 
   buildInputs = [ gmp ];
